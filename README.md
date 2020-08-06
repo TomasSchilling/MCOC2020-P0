@@ -11,6 +11,9 @@ numero nucleos: 4, con 4 suprocesos cada uno.
 
 Processor 2.3GHz (6M Cache, up to 3.20GHz).
 
+Extensiones de conjunto de instrucciones: 
+Intel® SSE4.1, Intel® SSE4.2, Intel® AVX2
+
  ---Tamano de cache del pordcesador:
 	
  L1 256 kB
