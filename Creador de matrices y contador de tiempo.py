@@ -22,6 +22,6 @@ t1 = perf_counter()
 
 print (t1-t0,"seg")
 
-print( "para n=1.000 se tardo 0.02497 seg. y para n= 10.000 se tardo 17.6334 seg.")
+print( "para n=1 000 se tardo 0.02497 seg. y para n= 10 000 se tardo 17.6334 seg.")
 
 print("Se corroboro que efectivamente es un mutliplicador de matrices",A[0][0]*B[0][0], C[0][0])
