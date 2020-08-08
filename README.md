@@ -70,4 +70,15 @@ GTD Mnaquehue, Fibra Optica
 ---IP Router 192.168.1.235
 
 
+Desempeño MATMUL
 
+El grafico no logre ingrsarlo aqui por lo que se adjunta en el github
+
+1. Se puede observar que el rendimiento en tiempo es similar sino un tanto mayor al del profesor, Esto se puede deber a que la presencia de mayor RAM. El prosesador presenta capacidades similares.
+
+2. Esto puede deberse a la cantidad de memoria almacenada en phyton crece cuadraticamente, mientras 
+que la cantidad de calculos y operaciones crece de manera cubica, mediente aumenta el tamano de la matriz cuadrada.
+
+3.  Pyhton 3.6 (spyder 4.16) Se utiliza el sobre programa Anaconda.
+
+Fue utilizado un solo prodesador durante la operacion solicitada 
