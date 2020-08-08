@@ -68,3 +68,6 @@ Intel Dual Band Wireless-AC 3165
 GTD Mnaquehue, Fibra Optica
 
 ---IP Router 192.168.1.235
+
+
+
