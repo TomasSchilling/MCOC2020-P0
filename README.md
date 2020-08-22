@@ -88,6 +88,7 @@ Fue utilizado un solo prodesador durante la operacion solicitada
 ** Matrices dispersas y complejidad computacional**
 
 Codigo de emsablaje y resolucion
+
 '''
 import matplotlib.pyplot as plt
 from time import perf_counter
@@ -109,7 +110,6 @@ def matriz_laplaciana_dispersa(n):
 valores=[2,5,10,12,15,20,30,40,45,50,55,60,75,100,125,160,200,250,350,500,600,800,1000,2000,5000]
 veces=3
 
-
 tiempo_solver_matriz_llena=[]
 tiempo_creacion_matriz_llena=[]
 for i in valores:  
@@ -124,14 +124,9 @@ for i in valores:
         x= np.matmul(A**-1,b.T)
         t2=perf_counter()   
         promedio_trabajo_lleno.append(t2-t1)
-        promedio_creacion_lleno.append(t1-t0)
-        
+        promedio_creacion_lleno.append(t1-t0)    
     tiempo_solver_matriz_llena.append(np.mean(promedio_trabajo_lleno))  
     tiempo_creacion_matriz_llena.append(np.mean(promedio_creacion_lleno))
-    
-
- 
-
 tiempo_solver_matriz_dispersa=[]
 tiempo_creacion_matriz_dispersa=[]
 for i in valores:  
@@ -145,8 +140,7 @@ for i in valores:
         x=spsolve(A,b)
         t2=perf_counter()    
         promedio_trabajo_dispersa.append(t2-t1)
-        promedio_creacion_dispersa.append(t1-t0)
-        
+        promedio_creacion_dispersa.append(t1-t0)       
     tiempo_solver_matriz_dispersa.append(np.mean(promedio_trabajo_dispersa))  
-    tiempo_creacion_matriz_dispersa.append(np.mean(promedio_creacion_dispersa))
-    '''
+    tiempo_creacion_matriz_dispersa.append(np.mean(promedio_creacion_dispersa)) 
+'''
