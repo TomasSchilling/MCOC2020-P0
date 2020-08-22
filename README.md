@@ -89,7 +89,7 @@ Fue utilizado un solo prodesador durante la operacion solicitada
 
 Codigo de emsablaje y resolucion
 
-'''
+```
 import matplotlib.pyplot as plt
 from time import perf_counter
 from scipy.sparse.linalg import spsolve
@@ -143,4 +143,4 @@ for i in valores:
         promedio_creacion_dispersa.append(t1-t0)       
     tiempo_solver_matriz_dispersa.append(np.mean(promedio_trabajo_dispersa))  
     tiempo_creacion_matriz_dispersa.append(np.mean(promedio_creacion_dispersa)) 
-'''
+```
