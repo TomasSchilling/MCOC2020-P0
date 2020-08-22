@@ -144,3 +144,5 @@ for i in valores:
     tiempo_solver_matriz_dispersa.append(np.mean(promedio_trabajo_dispersa))  
     tiempo_creacion_matriz_dispersa.append(np.mean(promedio_creacion_dispersa)) 
 ```
+
+Se puede o
